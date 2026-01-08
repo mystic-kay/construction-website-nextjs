@@ -93,7 +93,7 @@ export function FeaturedProjects() {
                             viewport={{ once: true }}
                             className="group relative"
                         >
-                            <Link href={`/projects/${project.id}`} className="block">
+                            <Link href="/projects" className="block">
                                 {/* Card Container */}
                                 <div className="relative overflow-hidden rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10">
                                     {/* Image Container */}
