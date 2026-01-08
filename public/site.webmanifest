@@ -1,0 +1,21 @@
+{
+  "name": "Vanguard Construct",
+  "short_name": "Vanguard",
+  "description": "Award-winning construction and renovation services. LEED-certified, OSHA-compliant, trusted by 500+ clients.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e0be4e",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

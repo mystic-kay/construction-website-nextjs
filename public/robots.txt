@@ -1,0 +1,27 @@
+# robots.txt for Vanguard Construct
+User-agent: *
+Allow: /
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 0
+
+# Sitemap
+Sitemap: https://vanguardconstruct.com/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
